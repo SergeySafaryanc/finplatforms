@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "lastName": "Иванов",
+    "firstName": "Иван",
+    "secondName": "Иванович",
+    "dateOfBirth": "2000-06-19",
+    "group": {
+      "id": 1,
+      "title": "ПИ6"
+    }
+  },
+  {
+    "id": 2,
+    "lastName": "Сергеев",
+    "firstName": "Сергей",
+    "secondName": "Сергеевич",
+    "dateOfBirth": "2000-06-19",
+    "group": {
+      "id": 1,
+      "title": "ПИ6"
+    }
+  },
+  {
+    "id": 3,
+    "lastName": "Петров",
+    "firstName": "Петр",
+    "secondName": "Петрович",
+    "dateOfBirth": "2000-06-19",
+    "group": {
+      "id": 1,
+      "title": "ПИ6"
+    }
+  },
+  {
+    "id": 4,
+    "lastName": "Максимов",
+    "firstName": "Максим",
+    "secondName": "Максимович",
+    "dateOfBirth": "2000-06-19",
+    "group": {
+      "id": 1,
+      "title": "ПИ6"
+    }
+  },
+  {
+    "id": 5,
+    "lastName": "Олегов",
+    "firstName": "Олег",
+    "secondName": "Олегович",
+    "dateOfBirth": "2000-06-19",
+    "group": {
+      "id": 2,
+      "title": "ПИ7"
+    }
+  }
+]

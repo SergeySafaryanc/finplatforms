@@ -1,0 +1,32 @@
+spring:
+  h2:
+    console.enabled: true
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:h2:file:./source/student
+  mvc:
+    format:
+      date: dd.MM.yyyy
+
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /docs
+  swagger-ui:
+    path: /swagger-ui
+
+logging:
+  file:
+    name: ./log/application.log
+  level:
+    "web": warn
+    "root": warn
+    "data": debug
+    "ru.finplatforms.student": debug
